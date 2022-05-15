@@ -4,21 +4,12 @@
     font-family: 'Poppins', sans-serif;
 } */
 
-/* body {
-    background: url(https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
-/* Navbar section */
-
-
-html, body {
+body {
     margin: 0;
     padding: 0;
     width: 100%;
+    background-color: #03045E;
 }
 
 
@@ -62,6 +53,7 @@ nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
+    z-index: 10;
 }
 
 nav ul {
@@ -154,7 +146,7 @@ nav ul li a {
 
 
 .fondo {
-    background-image: url(../assets/images/mar.gif);
+    /* background-image: url(../assets/images/mar.gif); */
     background-repeat: no-repeat;
     background-size: cover;
  }
@@ -163,10 +155,12 @@ nav ul li a {
  
  }
  .welcomeContainer{
-     align-items: center;
- width: 100%;
- text-align: center;
- 
+    position: absolute;
+    top: 40%;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
  }
  .nameexplorer{
      background-color: #90E0EF;
@@ -196,6 +190,17 @@ nav ul li a {
      min-width: 40px;
  
  } 
+
+.ola1 {
+    position: absolute;
+    top: 0%;
+}
+
+.ola2 {
+    position: absolute;
+    bottom: 0%;
+    z-index: 1;
+}
 
  .footerBar {
      background: #00B4D8;
