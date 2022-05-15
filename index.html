@@ -1,67 +1,263 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>KnowingTheOcean</title>
-      <link rel="stylesheet" href="css/styles-index.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-      <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-      <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicons/apple-icon-57x57.png">
-      <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicons/apple-icon-60x60.png">
-      <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicons/apple-icon-72x72.png">
-      <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicons/apple-icon-76x76.png">
-      <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicons/apple-icon-114x114.png">
-      <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicons/apple-icon-120x120.png">
-      <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicons/apple-icon-144x144.png">
-      <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicons/apple-icon-152x152.png">
-      <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-icon-180x180.png">
-      <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-      <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">
-      <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicons/favicon-96x96.png">
-      <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicons/favicon-16x16.png">
-   </head>
-   <body>
-      <div class="wrapper">
-         <header>
-            <nav>
-               <div class="menu-icon">
-                  <i class="fa fa-bars fa-2x"></i>
-               </div>
-               <div class="logo">
-                  <a href="index.html">
-                     <img src="assets/images/LogoFinal.png" alt="Logo de KnowingTheOcean" class="logo-img">
-                  </a>
-               </div>
-               <!-- <div class="logo container-fluid">
-                  <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/LogoFinal.png" alt="Logo de KnowingTheOcean" width="100" height="100" class="logo-img d-inline-block align-text-top">
-                    KnowingTheOcean
-                  </a>
-                </div> -->
-               <div class="menu">
-                  <ul>
-                     <li><a href="#">Inicio</a></li>
-                     <li><a href="#">Mapa</a></li>
-                     <li><a href="#">Consultar</a></li>
-                     <li><a href="#">Contacto</a></li>
-                  </ul>
-               </div>
-            </nav>
-         </header>
-         <div class="content">
-            <p>
-               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-            <p>
-               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>KnowingTheOcean</title>
+    <link rel="stylesheet" href="css/styles-index.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="/assets/favicons/apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="/assets/favicons/apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="/assets/favicons/apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="/assets/favicons/apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="/assets/favicons/apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="/assets/favicons/apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="/assets/favicons/apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="/assets/favicons/apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicons/apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="/android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="/assets/favicons/favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/favicons/favicon-16x16.png"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <nav>
+          <div class="menu-icon">
+            <i class="fa fa-bars fa-2x"></i>
+          </div>
+          <div class="logo">
+            <a href="index.html">
+              <img
+                src="assets/images/LogoFinal.png"
+                alt="Logo de KnowingTheOcean"
+                class="logo-img"
+              />
+            </a>
+          </div>
+          <div class="menu">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Mapa</a></li>
+              <li><a href="#">Consultar</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <div class="fondo welcomeContainer">
+        <h1 class="Welcome">Bienvenido Explorer</h1>
+        <div class="input-icons">
+          <i class="fa fa-user icon"></i>
+          <input
+            type="text"
+            class="nameexplorer"
+            placeholder="Escribe tu nombre"
+          />
+        </div>
+        <h2>Conoce el mundo marino</h2>
+        <input type="button" class="conocerMas" />
       </div>
-      <script src="js/index.js"></script>
-   </body>
+      <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#00B4D8"
+            fill-opacity="1"
+            d="M0,64L48,96C96,128,192,192,288,186.7C384,181,480,107,576,101.3C672,96,768,160,864,186.7C960,213,1056,203,1152,176C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+      <div class="content">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </div>
+    </div>
+   <footer class="footerBar text-center text-lg-start text-white">
+     <!-- Grid container -->
+     <div class="container p-4">
+       <!--Grid row-->
+       <div class="row mt-4">
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">See other books</h5>
+ 
+           <ul class="list-unstyled mb-0">
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>Bestsellers</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-book fa-fw fa-sm me-2"></i>All books</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-user-edit fa-fw fa-sm me-2"></i>Our authors</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+ 
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">Execution of the contract</h5>
+ 
+           <ul class="list-unstyled">
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Supply</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-backspace fa-fw fa-sm me-2"></i>Returns</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Regulations</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="far fa-file-alt fa-fw fa-sm me-2"></i>Privacy policy</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+ 
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">Publishing house</h5>
+ 
+           <ul class="list-unstyled">
+             <li>
+               <a href="#!" class="text-white">The BookStore</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">123 Street</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white">05765 NY</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-briefcase fa-fw fa-sm me-2"></i>Send us a book</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+ 
+         <!--Grid column-->
+         <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+           <h5 class="text-uppercase">Write to us</h5>
+ 
+           <ul class="list-unstyled">
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-at fa-fw fa-sm me-2"></i>Help in purchasing</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-shipping-fast fa-fw fa-sm me-2"></i>Check the order status</a>
+             </li>
+             <li>
+               <a href="#!" class="text-white"><i class="fas fa-envelope fa-fw fa-sm me-2"></i>Join the newsletter</a>
+             </li>
+           </ul>
+         </div>
+         <!--Grid column-->
+       </div>
+       <!--Grid row-->
+     </div>
+     <!-- Grid container -->
+ 
+     <!-- Copyright -->
+     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+       © 2021 Copyright:
+       <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+     </div>
+     <!-- Copyright -->
+   </footer>
+ 
+ </div>
+ <!-- End of .container -->
+    <script src="js/index.js"></script>
+  </body>
 </html>
