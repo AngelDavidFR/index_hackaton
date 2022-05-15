@@ -17,7 +17,11 @@
     align-items: center;
 width: 100%;
 text-align: center;
-
+display: flex;
+flex-direction: column;
+gap: 40px;
+background-color: #CAF0F8;
+padding: 100px;
 }
 .nameexplorer{
     background-color: #90E0EF;
@@ -45,5 +49,41 @@ text-align: center;
 .icon {
     padding: 10px;
     min-width: 40px;
-    
+}
+.conocerMas{
+    width: 300px;
+    height: 40px;
+}
+.Welcome{
+    position: relative;
+}
+.wec h1 {
+position: relative;
+}
+.conocerMas {
+	/* box-shadow: 3px 10px 22px 6px #96ceff; */
+	background:linear-gradient(to bottom, #15508c 5%, #0664c2 100%);
+	background-color:#15508c;
+	border-radius:16px;
+	border:2px solid #1c66b0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:26px;
+	padding:0;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.conocerMas:hover {
+	background:linear-gradient(to bottom, #0664c2 5%, #15508c 100%);
+	background-color:#0664c2;
+}
+.conocerMas:active {
+	position:relative;
+	top:1px;
+}
+.imgCarousel{
+    height: 400px;
+    width: auto;
 }
