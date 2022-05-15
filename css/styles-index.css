@@ -4,6 +4,46 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background: url(assets/images/mar.gif);
+.fondo {
+   background-image: url(../assets/images/mar.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.Welcome{
+    font-size: 4rem;
+
+}
+.welcomeContainer{
+    align-items: center;
+width: 100%;
+text-align: center;
+
+}
+.nameexplorer{
+    background-color: #90E0EF;
+    width: 400px;
+    height: 40px;
+    text-align: center;
+    color: #03045E;
+    font-size: 1.2em;
+    font-weight:500;
+}
+.nameexplorer::placeholder{
+    color: #00B4D8;
+    font-size: 1.2em;
+    font-weight:500;
+    padding: 4px;
+    text-align: center;
+}
+.input-icons i {
+    position: relative;
+    font-size: 2em;
+    left: 400px;
+    top:5px;
+
+}
+.icon {
+    padding: 10px;
+    min-width: 40px;
+    
 }
