@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
@@ -21,10 +21,6 @@ html, body {
     width: 100%;
 }
 
-body {
-    font-family: "Helvetica Neue",sans-serif;
-    font-weight: lighter;
-}
 
 header {
     width: 100%;
@@ -47,11 +43,19 @@ header {
     float: left;
     margin: 16px 46px;
     color: #fff;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 20px;
     letter-spacing: 2px;
     width: 100px;
     height: 100px;
+}
+
+.logo-img {
+    position: fixed;
+    top: 0;
+    float: left;
+    height: 90px;
+    width: 100px;
 }
 
 nav {
@@ -74,7 +78,7 @@ nav ul {
 }
 
 nav.black ul {
-    background: #000;
+    background: #00B4D8;
 }
 
 nav ul li {
